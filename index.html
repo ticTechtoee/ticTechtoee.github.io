@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Damian Williamson</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+			crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+			crossorigin="anonymous"></script>
+		<style>
+		@font-face {
+			font-family: "Hiragino Mincho ProN W3";
+			src: url("Hiragino Mincho ProN W3.otf");
+		
+			font-family: "Hiragino Mincho ProN W6";
+			src: url("Hiragino Mincho ProN W6.otf");
+		}
+			body
+			{
+				font-family: "Hiragino Mincho ProN W3", "Hiragino Mincho ProN W6";
+			}
+			.mb-0>a {
+				display: block;
+				position: relative;
+			}
+			.mb-0 > a:after {
+				content: "\f067";
+				/* fa-chevron-down */
+				font-family: 'FontAwesome';
+				position: absolute;
+				right: 0;
+			}
+
+			.mb-0 > a[aria-expanded="true"]:after {
+				content: "\f00d";
+				/* fa-chevron-up */
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+
+
+
+
+		<div id="accordion">
+			<div class="card">
+
+				<div class="card-header" id="heading-1">
+					<h5 class="mb-0">
+						<a style="color: #21201e;" role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true"
+							aria-controls="collapse-1">
+							Projects
+						</a>
+					</h5>
+				</div>
+
+				<div id="collapse-1" class="collapse" data-parent="#accordion" aria-labelledby="heading-1">
+
+					<div class="card">
+						<div id="accordion-1">
+							<div style="background-color: #21201e;" class="card">
+								<img class="mx-auto d-block" src="Images/1.png" style="max-width: 100%;">
+								<a style="color: #e5e4df;" class="mx-auto d-block" href="#">Project name</a>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="heading-1-2">
+									<h5 class="mb-0">
+										<a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-2"
+											aria-expanded="false" aria-controls="collapse-1-2">
+											Project 1
+										</a>
+									</h5>
+								</div>
+
+								<div id="collapse-1-2" class="collapse" data-parent="#accordion-1"
+									aria-labelledby="heading-1-2">
+									<div class="card">
+										<img class="mx-auto d-block" src="Images/2.png" style="max-width: 100%;">
+										<a class="mx-auto d-block" href="#">Project name</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<!-- Navbar 2 -->
+		</div>
+	</body>
+
+</html>

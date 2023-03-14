@@ -1,0 +1,2 @@
+Dark:	#21201e
+Light:	#e5e4df
