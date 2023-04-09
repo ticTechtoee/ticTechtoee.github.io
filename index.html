@@ -14,56 +14,10 @@
 		crossorigin="anonymous"></script>
 	<style>
 		@media only screen and (min-width: 0px) and (max-width:830px) {
-			.image-name {
-				padding-right: 0px;
-
-			}
-
-			.image-number {
-				padding-left: 230px;
-
-			}
-
-			.project-name {
-				padding-right: 265px;
-			}
-
-			.main-project {
-				padding-left: 125px;
-			}
-
-			.website-name {
-				padding-left: 145px;
-			}
+			
 
 		}
 
-
-
-		@media only screen and (min-width: 831px) and (max-width: 1080px) {
-			.image-name {
-				padding-right: 0px;
-
-			}
-
-			.image-number {
-				/* padding-left: 230px; */
-				padding-left: 375px;
-
-			}
-
-			.project-name {
-				padding-right: 405px;
-			}
-
-			.main-project {
-				padding-left: 180px;
-			}
-
-			.website-name {
-				padding-left: 195px;
-			}
-		}
 
 
 
@@ -109,7 +63,7 @@
 
 				<div class="">
 					<div class="col">
-						<h4 id="name" style="letter-spacing: 0.25em;" class="website-name">
+						<h4 id="name" style="letter-spacing: 0.25em; margin-left: 150px; font-size: small;" class="website-name">
 							Damian Williamson
 						</h4>
 					</div>
@@ -122,7 +76,7 @@
 						</div>
 						<div class="col">
 							<h5 class="mb-0">
-								<a style="color: #21201e; letter-spacing: 0.5em;" class="main-project" role="button"
+								<a style="color: #21201e; letter-spacing: 0.5em;margin-left: 130px; font-size: small;" class="main-project" role="button"
 									data-toggle="collapse" href="#collapse-1" aria-expanded="false"
 									aria-controls="collapse-1">PROJECTS</a>
 							</h5>
@@ -165,15 +119,15 @@
 							</a>
 						</div>
 						<div class="text-center d-flex justify-content-center align-items-center py-2">
-							<a style="color: #e5e4df; text-decoration: underline;" class="d-block image-name"
+							<a style="color: #e5e4df; text-decoration: underline;" class="d-block"
 								href="#">ORIGAMI Sofa
 								Collection</a>
-							<div id="carousel-number" class="text-white mr-2 image-number"></div>
+							<div id="carousel-number" class="text-white mr-2"></div>
 						</div>
 					</div>
 
 
-					<div style="background-color: #e5e4df; border-radius: 0px; border-color: transparent;" class="card">
+					<!-- <div style="background-color: #e5e4df; border-radius: 0px; border-color: transparent;" class="card">
 						<div style=" border-bottom: 0px; background-color: #e5e4df;" class="card-header text-center"
 							id="heading-1-2">
 							<h5 class="mb-0">
@@ -214,15 +168,15 @@
 									</a>
 								</div>
 								<div
-									class="text-center d-flex justify-content-center align-items-center py-2 image-name">
+									class="text-center d-flex justify-content-center align-items-center py-2">
 									<a style="color: #21201e; text-decoration: underline;" class="d-block"
 										href="#">OVO Easychair 2018</a>
-									<div id="carousel-number-2" style="color: #21201e;" class="mr-2 image-number">
+									<div id="carousel-number-2" style="color: #21201e;" class="mr-2">
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 
 				</div>
 			</div>
@@ -243,13 +197,13 @@
 		});
 
 
-		var totalItems2 = $('#carouselExampleControls2 .carousel-item').length;
-		var currentIndex2 = $('#carouselExampleControls2 .carousel-item.active').index() + 1;
-		$('#carousel-number-2').text(currentIndex2 + '/' + totalItems2);
-		$('#carouselExampleControls2').on('slid.bs.carousel', function () {
-			currentIndex2 = $('#carouselExampleControls2 .carousel-item.active').index() + 1;
-			$('#carousel-number-2').text(currentIndex2 + '/' + totalItems2);
-		});
+		// var totalItems2 = $('#carouselExampleControls2 .carousel-item').length;
+		// var currentIndex2 = $('#carouselExampleControls2 .carousel-item.active').index() + 1;
+		// $('#carousel-number-2').text(currentIndex2 + '/' + totalItems2);
+		// $('#carouselExampleControls2').on('slid.bs.carousel', function () {
+		// 	currentIndex2 = $('#carouselExampleControls2 .carousel-item.active').index() + 1;
+		// 	$('#carousel-number-2').text(currentIndex2 + '/' + totalItems2);
+		// });
 	</script>
 </body>
 
